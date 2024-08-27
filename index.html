@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptador Challenger One</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+    <main class="conteudo">
+        <img class="logo-alura" src="./assets/images/logo-alura.png" alt="Logo alura">
+        <section class="area-texto">
+            <div class="centro-texto">
+                <div class="caixa-texto">
+                    <textarea id="entrada" class="entrada" placeholder="digite seu texto"></textarea>
+                </div>
+                <div class="area-botoes">
+                    <div class="aviso">
+                        <img src="./assets/images/exclamacao.png" alt="">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="botoes">
+                        <button class="botao-criptografar" onclick="encriptar()">Criptografar</button>
+                        <button class="botao-descriptografar" onclick="decriptar()">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="area-chat">
+            <div class="chat" id="chat">
+                <img class="vetor-chat" src="./assets/images/pessoa-com-lupa.png" alt="Uma imagem de uma pessoa com uma lupa">
+                <h1 class="titulo-chat">Nenhuma mensagem<br>encontrada</h1>
+                <p class="descricao-chat">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./assets/javascript/script.js"></script>
+</html>
